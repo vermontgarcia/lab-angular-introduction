@@ -1,0 +1,44 @@
+.add-comment-container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.comments-box{
+  width: 85%;
+}
+
+.comment-tag{
+  background-color: whitesmoke;
+  width: 85%;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: medium;
+}
+
+.comment-user-name{
+  font-weight: bold;
+}
+
+.comment-input{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.comment-add-label{
+  font-weight: 900;
+}
+
+.comment-button{
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-color: black;
+}
